@@ -62,13 +62,85 @@ nav a{
 
 }
 
-.hero h1{
+.hero{
 
-    font-size:56px;
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    max-width:1300px;
+
+    margin:auto;
+
+    padding:120px 60px;
+
+}
+.hero-left{
+
+    width:55%;
+
+}
+.hero-right{
+
+    width:40%;
+
+    text-align:center;
+
+}
+.hero-right img{
+
+    width:100%;
+
+    max-width:450px;
+
+}
+.hero-tag{
+
+    color:#1f7a8c;
+
+    font-weight:700;
+
+    letter-spacing:3px;
+
+    margin-bottom:20px;
+
+}
+.hero-text{
+
+    font-size:22px;
+
+    color:#666;
+
+    margin-top:25px;
+
+    margin-bottom:40px;
+
+    line-height:1.8;
+
+}
+.hero-buttons{
+
+    display:flex;
+
+    gap:20px;
+
+}
+.primary-btn{
+
+    background:#123d78;
+
+    color:white;
+
+}
+.secondary-btn{
+
+    background:white;
 
     color:#123d78;
 
-    margin-bottom:20px;
+    border:2px solid #123d78;
 
 }
 
@@ -229,6 +301,25 @@ button:hover{
         flex-direction: column;
         gap: 18px;
     }
+    .hero{
+
+    flex-direction:column;
+
+    text-align:center;
+
+}
+.hero-left{
+
+    width:100%;
+
+}
+.hero-right{
+
+    width:100%;
+
+    margin-top:50px;
+
+}
 
     nav a {
         margin: 0 8px;
