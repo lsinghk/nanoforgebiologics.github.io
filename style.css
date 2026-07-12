@@ -84,14 +84,53 @@ button{
 
     color:white;
 
+    padding:18px 45px;
+
     border:none;
 
-    padding:18px 40px;
-
-    border-radius:10px;
+    border-radius:8px;
 
     font-size:18px;
 
+    font-weight:600;
+
+    transition:.3s;
+
     cursor:pointer;
+
+}
+
+button:hover{
+
+    background:#0d2f5c;
+
+    transform:translateY(-2px);
+
+}
+.overview{
+
+    padding:100px;
+
+    max-width:1000px;
+
+    margin:auto;
+
+}
+
+.overview h2{
+
+    font-size:42px;
+
+    color:#123d78;
+
+    margin-bottom:25px;
+
+}
+
+.overview p{
+
+    line-height:1.8;
+
+    font-size:20px;
 
 }
