@@ -81,9 +81,13 @@ nav a:hover {
     text-align: center;
 }
 
-.hero-right img {
-    width: 100%;
-    max-width: 450px;
+.hero-video {
+    width: 70%;
+    max-width: 320px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    border-radius: 20px;
 }
 
 .hero-tag {
